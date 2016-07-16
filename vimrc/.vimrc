@@ -39,9 +39,6 @@ Plugin 'elmcast/elm-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 
-
-
 " syntax checking
 Plugin 'scrooloose/syntastic'
 
