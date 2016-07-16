@@ -92,6 +92,9 @@ let g:rainbow_active = 1
 " Nerdtree config
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
 
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
