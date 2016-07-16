@@ -91,6 +91,7 @@ let g:rainbow_active = 1
 
 " Nerdtree config
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
