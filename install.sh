@@ -2,11 +2,16 @@
 
 echo "installing dotfiles to home directory..."
 
+#copying hiddent dotfiles
 cp -r vimrc/ ~/
 cp -r bashrc/ ~/
+cp -r tmux/ ~/
 
+#install bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git pull https://github.com/VundleVim/Vundle.vim.git
+cd ~/.vim/bundle/Vundle.vim && git pull https://github.com/VundleVim/Vundle.vim.git && cd -
+
+#install plugins into vim
 vim -c "PluginInstall" -c "q" -c "q" -c "q"
 
 echo "finished installing"
