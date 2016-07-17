@@ -167,4 +167,4 @@ set list listchars=tab:\ \ ,trail:·
 
 let g:nerdtree_tabs_open_on_console_startup=1
 
-let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_working_path_mode = 'a'
