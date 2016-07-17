@@ -12,7 +12,9 @@ mkdir fonts
 cd fonts
 git clone git@github.com:powerline/fonts.git
 git pull origin master
+./install.sh
 cd -
+
 
 
 #install bundle
