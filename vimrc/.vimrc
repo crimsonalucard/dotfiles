@@ -160,3 +160,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
+
+let g:nerdtree_tabs_open_on_console_startup=1
