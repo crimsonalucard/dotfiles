@@ -76,7 +76,8 @@ Plugin 'altercation/vim-colors-solarized'
 " autoformatting
 Plugin 'Chiel92/vim-autoformat'
 
-
+" ctrl p
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 " Now we can turn our filetype functionality back on
@@ -158,7 +159,12 @@ autocmd BufEnter * lcd %:p:h
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+"set airline theme on tabline
+let g:airline#extensions#tabline#enabled = 1
+
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
 let g:nerdtree_tabs_open_on_console_startup=1
+
+let g:ctrlp_working_path_mode = 'ra'
