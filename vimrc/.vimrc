@@ -27,6 +27,7 @@ Plugin 'rust-lang/rust.vim'
 
 " We could also add repositories with a ".git" extension
 Plugin 'scrooloose/nerdtree.git'
+Plugin 'jistr/vim-nerdtree-tabs'
 
 " To get plugins from Vim Scripts, you can reference the plugin
 " by name as it appears on the site
@@ -74,6 +75,8 @@ Plugin 'altercation/vim-colors-solarized'
 
 " autoformatting
 Plugin 'Chiel92/vim-autoformat'
+
+
 
 call vundle#end()
 " Now we can turn our filetype functionality back on
