@@ -23,3 +23,6 @@ PATH="$HOME/.cabal/bin:$PATH"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+
+
+source ~/.shell_prompt.sh
