@@ -79,6 +79,8 @@ Plugin 'Chiel92/vim-autoformat'
 " ctrl p
 Plugin 'ctrlpvim/ctrlp.vim'
 
+Plugin 'kchmck/vim-coffee-script'
+
 call vundle#end()
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
@@ -87,8 +89,8 @@ filetype plugin indent on
 let g:syntastic_mode_map = { 'passive_filetypes': ['haskell'] }
 
 " set theme
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
 
 " activate rainbow parens
 let g:rainbow_active = 1 
@@ -171,3 +173,7 @@ let g:ctrlp_working_path_mode = 'a'
 
 " have vim tabs only display file names
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+
+"coffeescript plugin settings
+filetype plugin indent on
