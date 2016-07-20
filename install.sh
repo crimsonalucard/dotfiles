@@ -2,11 +2,12 @@
 
 echo "installing dotfiles to home directory..."
 
-
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-brew install vim
-brew install tmux
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  brew update
+  brew install vim
+  brew install tmux
+fi
 
 
 #copying hiddent dotfiles
