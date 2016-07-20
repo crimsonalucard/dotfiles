@@ -14,6 +14,7 @@ fi
 cp -r vimrc/ ~/
 cp -r bashrc/ ~/
 cp -r tmux/ ~/
+cp -r bash_profile/ ~/
 
 #install powerline fonts
 mkdir fonts
@@ -43,8 +44,4 @@ tmux
 vim -c "q" -c "q"
 source ~/.shell_prompt.sh
 echo "finished installing"
-
-
-
-
 

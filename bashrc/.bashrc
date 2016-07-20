@@ -17,7 +17,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 set -o emacs
 
-alias tmux="tmux -2"
+alias tmux="tmux" 
 alias n="sudo n"
 alias nvm="sudo nvm"
 
@@ -27,5 +27,6 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
+alias ls="ls -laG" 
 
 source ~/.shell_prompt.sh
