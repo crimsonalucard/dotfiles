@@ -40,7 +40,7 @@ source ~/.bashrc
 tmux
 
 vim -c "q" -c "q"
-source ~/.shell_prompt.sh
+
 echo "finished installing"
 
 

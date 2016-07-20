@@ -177,3 +177,8 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 "coffeescript plugin settings
 filetype plugin indent on
+
+" press shift enter to insert a newline before cursor in normal mode
+"
+" press shift enter to insert a newline before cursor in normal mode
+nmap <S-Enter> O<Esc>
