@@ -25,7 +25,7 @@ cd ~/.vim/bundle/Vundle.vim && git pull https://github.com/VundleVim/Vundle.vim.
 vim -c "PluginInstall" -c "q" -c "q" -c "q"
 
 #install airline shellprompt
-vim -c "PromptlineSnapshot ~/.shell_prompt.sh" -c "q" -c "q"
+vim -c "PromptlineSnapshot ~/.shell_prompt.sh!" -c "q" -c "q"
 
 #reset bash
 source ~/.bashrc

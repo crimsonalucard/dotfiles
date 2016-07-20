@@ -1,3 +1,6 @@
+export TERM="xterm-256color"
+export TERM
+
 set -o emacs
 
 
@@ -14,7 +17,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 set -o emacs
 
-alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="tmux -2"
 alias n="sudo n"
 alias nvm="sudo nvm"
 
