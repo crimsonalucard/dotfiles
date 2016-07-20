@@ -7,6 +7,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew update
   brew install vim
   brew install tmux
+  brew install ctags
 fi
 
 
