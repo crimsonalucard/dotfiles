@@ -43,6 +43,11 @@ source ~/.bashrc
 tmux
 
 vim -c "q" -c "q"
+
+ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+
 source ~/.shell_prompt.sh
+
 echo "finished installing"
 
