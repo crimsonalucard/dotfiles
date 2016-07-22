@@ -22,6 +22,9 @@ Plugin 'Shougo/vimproc.vim'
 "ghcmod-wim
 Plugin 'eagletmt/ghcmod-vim'
 
+"nerd commenting plugin
+Plugin 'scrooloose/nerdcommenter'
+
 "Rust
 Plugin 'rust-lang/rust.vim'
 
