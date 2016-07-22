@@ -22,7 +22,7 @@ mkdir fonts
 cd fonts
 git clone https://github.com/powerline/fonts.git 
 git pull origin master
-./install.sh
+./fonts/install.sh
 cd -
 
 
