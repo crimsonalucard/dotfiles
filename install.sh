@@ -10,7 +10,7 @@ cp -r tmux/ ~/
 #install powerline fonts
 mkdir fonts
 cd fonts
-git clone git@github.com:powerline/fonts.git
+git clone https://github.com/crimsonalucard/dotfiles.git  
 git pull origin master
 ./install.sh
 cd -
