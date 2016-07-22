@@ -20,7 +20,7 @@ cp -r bash_profile/ ~/
 #install powerline fonts
 mkdir fonts
 cd fonts
-git clone https://github.com/crimsonalucard/dotfiles.git  
+git clone https://github.com/powerline/fonts.git 
 git pull origin master
 ./install.sh
 cd -
