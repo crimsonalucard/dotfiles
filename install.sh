@@ -5,7 +5,7 @@ echo "installing dotfiles to home directory..."
 if [[ "$OSTYPE" == "darwin"* ]]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
-  brew install vim
+  brew install vim --with lua
   brew install tmux
   brew install ctags
   brew install neovim --with lua
