@@ -8,6 +8,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install vim
   brew install tmux
   brew install ctags
+  brew install neovim --with lua
 fi
 
 
