@@ -40,6 +40,9 @@ vim -c "PluginInstall" -c "q" -c "q" -c "q"
 #install airline shellprompt
 vim -c "PromptlineSnapshot ~/.shell_prompt.sh" -c "q" -c "q"
 
+#get deoplete working for neovim
+vim -c "UpdateRemotePlugins"
+
 #reset bash
 source ~/.bashrc
 
@@ -53,4 +56,4 @@ ln -s ~/.vimrc ~/.config/nvim/init.vim
 source ~/.shell_prompt.sh
 
 echo "finished installing"
-
+echo "if you are using iTerm2, to get 'alt ->' or 'alt <-' working you need to load a preset in the keys tab of the running profile to \"Natural Text Editing"
