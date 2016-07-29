@@ -11,7 +11,7 @@ call vundle#begin()
 " For GitHub repos, you specify plugins using the
 
 " yesod template highlighting (shakespear)
-Plugin 'pbrisbin/vim-syntax-shakespeare'
+" Plugin 'pbrisbin/vim-syntax-shakespeare'
 
 " 'user/repository' format
 Plugin 'VundleVim/Vundle.vim'
@@ -58,8 +58,13 @@ Plugin 'edkolev/promptline.vim'
 " replicate status line in tmux
 Plugin 'edkolev/tmuxline.vim'
 
-" autocomplete
-Plugin 'Shougo/neocomplete.vim'
+if has('nvim')
+  " autocomplete
+  Plugin 'Shougo/deoplete.nvim' 
+else
+  " autocomplete if not nvim 
+  Plugin 'Shougo/neocomplete.vim'
+endif
 
 " haskell autocomplete
 Plugin 'eagletmt/neco-ghc'
@@ -112,15 +117,19 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" neocomplete
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" " Use smartcase.
-let g:neocomplete#enable_smart_case = 1
-" " Set minimum syntax keyword length.
-let g:neocomplete#sources#syntax#min_keyword_length = 3
-let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
-
+if has("nvim")
+  let g:deoplete#enable_at_startup = 1
+  let g:deoplete#eneable_smart_case = 1
+else
+  " neocomplete
+  " Use neocomplete.
+  let g:neocomplete#enable_at_startup = 1
+  " " Use smartcase.
+  let g:neocomplete#enable_smart_case = 1
+  " " Set minimum syntax keyword length.
+  let g:neocomplete#sources#syntax#min_keyword_length = 3
+  let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+endif
 " vim utf8
 set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.

@@ -9,6 +9,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install tmux
   brew install ctags
   brew install neovim --with lua
+  brew install python3
+  pip3 install neovim
 fi
 
 
