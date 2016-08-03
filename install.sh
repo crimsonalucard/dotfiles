@@ -27,7 +27,7 @@ git clone https://github.com/powerline/fonts.git
 git pull origin master
 ./fonts/install.sh
 cd -
-rm -rd fonts
+sudo rm -rd fonts
 
 
 
@@ -42,7 +42,7 @@ vim -c "PluginInstall" -c "q" -c "q" -c "q"
 vim -c "PromptlineSnapshot ~/.shell_prompt.sh" -c "q" -c "q"
 
 #get deoplete working for neovim
-vim -c "UpdateRemotePlugins"
+#vim -c "UpdateRemotePlugins"
 
 #install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

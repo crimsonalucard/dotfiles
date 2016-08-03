@@ -87,7 +87,11 @@ Plugin 'Chiel92/vim-autoformat'
 " ctrl p
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" coffeescript plugin
 Plugin 'kchmck/vim-coffee-script'
+
+" tmux conf file highlighting
+Plugin 'tmux-plugins/vim-tmux'
 
 call vundle#end()
 " Now we can turn our filetype functionality back on
