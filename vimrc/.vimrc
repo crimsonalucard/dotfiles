@@ -13,6 +13,9 @@ call vundle#begin()
 " yesod template highlighting (shakespear)
 " Plugin 'pbrisbin/vim-syntax-shakespeare'
 
+" tmux compatible stuff
+Plugin 'tmux-plugins/vim-tmux-focus-events'
+
 " 'user/repository' format
 Plugin 'VundleVim/Vundle.vim'
 
