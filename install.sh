@@ -8,7 +8,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install vim --with lua
   brew install tmux
   brew install ctags
-  brew install neovim --with lua
+  brew install neovim 
   brew install python3
   pip3 install neovim
 fi
@@ -23,10 +23,11 @@ cp -r bash_profile/ ~/
 #install powerline fonts
 mkdir fonts
 cd fonts
-git clone https://github.com/powerline/fonts.git 
+git clone https://github.com/powerline/fonts.git
 git pull origin master
 ./fonts/install.sh
 cd -
+rm -rd fonts
 
 
 
