@@ -43,6 +43,10 @@ vim -c "PromptlineSnapshot ~/.shell_prompt.sh" -c "q" -c "q"
 #get deoplete working for neovim
 vim -c "UpdateRemotePlugins"
 
+#install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 #reset bash
 source ~/.bashrc
 
