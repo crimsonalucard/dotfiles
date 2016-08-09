@@ -19,7 +19,8 @@ cp -r vimrc/ ~/
 cp -r bashrc/ ~/
 cp -r tmux/ ~/
 cp -r bash_profile/ ~/
-cp -r bin/ ~/
+mkdir ~/bin
+cp -r bin/ ~/bin
 
 #install powerline fonts
 mkdir fonts
