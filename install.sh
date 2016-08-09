@@ -14,11 +14,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 
-#copying hiddent dotfiles
+#copying hidden dotfiles
 cp -r vimrc/ ~/
 cp -r bashrc/ ~/
 cp -r tmux/ ~/
 cp -r bash_profile/ ~/
+cp -r bin/ ~/
 
 #install powerline fonts
 mkdir fonts

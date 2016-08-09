@@ -23,6 +23,9 @@ alias nvm="sudo nvm"
 alias vim="nvim"
 PATH="$HOME/.cabal/bin:$PATH"
 
+#add $HOME/bin to path
+export PATH="~/bin:$PATH"
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
