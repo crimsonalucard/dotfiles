@@ -96,6 +96,9 @@ Plugin 'kchmck/vim-coffee-script'
 " tmux conf file highlighting
 Plugin 'tmux-plugins/vim-tmux'
 
+" tagbar plugin
+Plugin 'majutsushi/tagbar'
+
 call vundle#end()
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
@@ -116,6 +119,8 @@ let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
+" tagbar shortcut
+nmap <F8> :TagbarToggle<CR>
 
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
