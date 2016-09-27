@@ -200,7 +200,7 @@ filetype plugin indent on
 " press shift enter to insert a newline before cursor in normal mode
 nmap <S-Enter> O<Esc>
 
-set tags=./tags,tags;$HOME
+set tags=./tags,tags
 set exrc
 set secure
 
