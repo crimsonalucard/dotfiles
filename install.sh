@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "installing dotfiles to home directory..."
-
+echo "installing and updating brew"
 if [[ "$OSTYPE" == "darwin"* ]]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
@@ -13,7 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   pip3 install neovim
 fi
 
-
+echo "copying hidden dotfiles"
 #copying hidden dotfiles
 cp -r vimrc/ ~/
 cp -r bashrc/ ~/
@@ -22,6 +22,7 @@ cp -r bash_profile/ ~/
 mkdir ~/bin
 cp -r bin/ ~/bin
 
+echo "installing powerline fonts"
 #install powerline fonts
 mkdir fonts
 cd fonts
