@@ -42,6 +42,7 @@ cd ~/.vim/bundle/Vundle.vim && git pull https://github.com/VundleVim/Vundle.vim.
 vim -c "PluginInstall" -c "q" -c "q" -c "q"
 
 #install airline shellprompt
+rm -f ~/.shell_prompt.sh
 vim -c "PromptlineSnapshot ~/.shell_prompt.sh" -c "q" -c "q"
 
 #get deoplete working for neovim
