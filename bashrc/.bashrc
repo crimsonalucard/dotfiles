@@ -3,6 +3,8 @@ export TERM
 
 set -o emacs
 
+#need to add this to basrhrc to support pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

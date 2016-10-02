@@ -7,6 +7,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew update
   brew install vim --with lua
   brew install tmux
+  brew install pyenv
   brew install ctags
   brew install neovim 
   brew install python3
