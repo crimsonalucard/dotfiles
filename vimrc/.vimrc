@@ -64,6 +64,7 @@ Plugin 'edkolev/tmuxline.vim'
 if has('nvim')
   " autocomplete
   Plugin 'Shougo/deoplete.nvim' 
+  Plugin 'zchee/deoplete-jedi'
 else
   " autocomplete if not nvim 
   Plugin 'Shougo/neocomplete.vim'
