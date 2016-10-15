@@ -240,8 +240,8 @@ set tags=./tags,tags
 set exrc
 set secure
 
-let g:python2_host_prog = '/usr/local/bin/python2'
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python2_host_prog = '/Users/brian/.pyenv/versions/neovim2/bin/python'
+let g:python3_host_prog = '/Users/brian/.pyenv/versions/neovim3/bin/python'
 
 
 

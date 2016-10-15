@@ -11,8 +11,19 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install ctags
   brew install neovim 
   brew install python3
+  brew install python2
+  pip2 install neovim
   pip3 install neovim
 fi
+
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+pyenv update
+pyenv install 2.7
+pyenv install 3.5.2
+pyenv virtualenv 2.7 neovim2
+pyenv virtualenv 3.5.2 neovim3
+
+
 
 echo "copying hidden dotfiles"
 #copying hidden dotfiles
@@ -66,3 +77,12 @@ source ~/.shell_prompt.sh
 
 echo "finished installing"
 echo "if you are using iTerm2, to get 'alt ->' or 'alt <-' working you need to load a preset in the keys tab of the running profile to \"Natural Text Editing"
+
+echo 'please run manually to bootstrap neovim:'
+echo 'pyenv activate neovim2'
+echo 'pip install neovim'
+echo 'pyenv which python'
+echo 'pyenv activate neovim3'
+echo 'pip install neovim'
+echo 'pyenv which python'
+
