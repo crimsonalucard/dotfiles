@@ -86,10 +86,11 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'calebsmith/vim-lambdify'
 
 " solarized colorscheme
-" Plugin 'altercation/vim-colors-solarized'
-Plugin 'Taverius/vim-colorscheme-manager'
-Plugin 'xolox/vim-misc' 
-Plugin 'xolox/vim-colorscheme-switcher' 
+"Plugin 'altercation/vim-colors-solarized'
+"Plugin 'Taverius/vim-colorscheme-manager'
+"Plugin 'xolox/vim-misc' 
+"Plugin 'xolox/vim-colorscheme-switcher' 
+Plugin 'sickill/vim-monokai'
 
 " autoformatting
 Plugin 'Chiel92/vim-autoformat'
@@ -115,7 +116,7 @@ let g:syntastic_mode_map = { 'passive_filetypes': ['haskell'] }
 
 " set theme
 " set background=dark
-" colorscheme solarized
+colorscheme monokai 
 
 " activate rainbow parens
 let g:rainbow_active = 1 
