@@ -86,7 +86,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'calebsmith/vim-lambdify'
 
 " solarized colorscheme
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
+Plugin 'Taverius/vim-colorscheme-manager'
 
 " autoformatting
 Plugin 'Chiel92/vim-autoformat'
