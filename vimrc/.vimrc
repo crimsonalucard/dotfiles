@@ -195,6 +195,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "set airline theme on tabline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
