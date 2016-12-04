@@ -88,6 +88,7 @@ Plugin 'calebsmith/vim-lambdify'
 " solarized colorscheme
 " Plugin 'altercation/vim-colors-solarized'
 Plugin 'Taverius/vim-colorscheme-manager'
+Plugin 'xolox/vim-misc' 
 
 " autoformatting
 Plugin 'Chiel92/vim-autoformat'
