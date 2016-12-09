@@ -1,6 +1,10 @@
 export TERM="xterm-256color"
 export TERM
 
+#set global vim variables
+export VIM="/usr/local/share/nvim"
+export VIMRUNTIME="/usr/local/share/nvim/runtime"
+
 set -o emacs
 
 #need to add this to basrhrc to support pyenv
