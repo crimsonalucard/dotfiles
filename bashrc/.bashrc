@@ -39,3 +39,6 @@ fi
 alias ls="ls -laG" 
 
 source ~/.shell_prompt.sh
+
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

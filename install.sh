@@ -9,11 +9,14 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install tmux
   brew install pyenv
   brew install ctags
+  brew install pyenv-virtualenv
   brew install neovim 
+  brew install reattach-to-user-namespace
   brew install python3
   brew install python2
   pip2 install neovim
   pip3 install neovim
+
 fi
 
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
