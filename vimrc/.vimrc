@@ -23,7 +23,7 @@ Plugin 'tmux-plugins/vim-tmux-focus-events'
 Plugin 'VundleVim/Vundle.vim'
 
 "vimproc
-Plugin 'Shougo/vimproc.vim'
+Plugin 'Shougo/vimproc.vim', {'do' : 'make'}
 
 "ghcmod-wim
 Plugin 'eagletmt/ghcmod-vim'
