@@ -42,3 +42,5 @@ source ~/.shell_prompt.sh
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+export PATH="~/.local/bin:$PATH"
