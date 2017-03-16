@@ -14,6 +14,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew install reattach-to-user-namespace
   brew install python3
   brew install python2
+  brew install nvm
   pip2 install neovim
   pip3 install neovim
 
