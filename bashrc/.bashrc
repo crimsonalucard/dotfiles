@@ -25,7 +25,7 @@ set -o emacs
 
 alias tmux="tmux" 
 alias n="sudo n"
-alias nvm="sudo nvm"
+#alias nvm="sudo nvm"
 alias vim="nvim"
 PATH="$HOME/.cabal/bin:$PATH"
 
