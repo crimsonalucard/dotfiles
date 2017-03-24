@@ -107,6 +107,10 @@ Plugin 'tmux-plugins/vim-tmux'
 " tagbar plugin
 Plugin 'majutsushi/tagbar'
 
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+
+
 call vundle#end()
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
