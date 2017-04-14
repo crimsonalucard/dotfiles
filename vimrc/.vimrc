@@ -117,6 +117,9 @@ filetype plugin indent on
 
 " disable haskell in syntastic
 let g:syntastic_mode_map = { 'passive_filetypes': ['haskell'] }
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:elm_syntastic_show_warnings = 1
 
 " set theme
 " set background=dark
