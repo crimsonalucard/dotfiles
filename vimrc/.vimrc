@@ -110,6 +110,9 @@ Plugin 'majutsushi/tagbar'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
+" nim plugin 
+Plugin 'zah/nim.vim'
+
 
 call vundle#end()
 " Now we can turn our filetype functionality back on
