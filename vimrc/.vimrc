@@ -11,7 +11,7 @@ call vundle#begin()
 " For GitHub repos, you specify plugins using the
 
 " go plugin
-Plugin '/fatih/vim-go'
+Plugin 'fatih/vim-go'
 
 " yesod template highlighting (shakespear)
 " Plugin 'pbrisbin/vim-syntax-shakespeare'
