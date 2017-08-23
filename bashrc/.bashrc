@@ -51,5 +51,7 @@ export NVM_DIR="$HOME/.nvm"
 #GO stuff
 export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
 export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
