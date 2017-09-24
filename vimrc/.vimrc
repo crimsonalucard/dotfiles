@@ -10,6 +10,9 @@ call vundle#begin()
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 
+"elixir
+Plugin 'elixir-editors/vim-elixir'
+
 " go plugin
 Plugin 'fatih/vim-go'
 
