@@ -10,6 +10,10 @@ call vundle#begin()
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 
+
+"vimproc
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
 "elixir
 Plugin 'elixir-editors/vim-elixir'
 
