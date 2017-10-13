@@ -11,9 +11,6 @@ call vundle#begin()
 " For GitHub repos, you specify plugins using the
 
 
-"vimproc
-Plug 'Shougo/vimproc.vim', {'do' : 'make'}
-
 "elixir
 Plugin 'elixir-editors/vim-elixir'
 
