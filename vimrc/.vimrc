@@ -10,6 +10,8 @@ call vundle#begin()
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
 
+"Idris
+Plugin 'idris-hackers/idris-vim'
 
 "elixir
 Plugin 'elixir-editors/vim-elixir'
